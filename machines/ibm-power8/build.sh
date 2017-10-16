@@ -1,7 +1,9 @@
 #!/usr/bin/bash
 
 set -o verbose
+module purge
 module load compiler/gcc-5.3.0
+module load mpi/openmpi-cuda-2.1
 
 SRC=$PWD
 
