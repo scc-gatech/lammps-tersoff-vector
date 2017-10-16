@@ -7,7 +7,7 @@ module load mpi/openmpi-cuda-2.1
 
 SRC=$PWD
 
-cp -r $SRC/lammps-10Mar16 . 
+cp -r $SRC/../lammps-10Mar16 . 
 
 # copy modified files into lammps folder
 cp -r $SRC/../../src/* $SRC/lammps-10Mar16/src/
